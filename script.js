@@ -3,5 +3,10 @@ function squareRoot(){
     let result;
 
 
+    try{
+        if(Number(num < 0)){
+            throw new Error("Number cannot be negative!");
+        }
+        
 
 };
