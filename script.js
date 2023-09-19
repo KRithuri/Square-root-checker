@@ -7,6 +7,8 @@ function squareRoot(){
         if(Number(num < 0)){
             throw new Error("Number cannot be negative!");
         }
-        
+        result = Math.sqrt(num)
+        document.getElementById("output").innerHTML = "The square root of " + num + " is  " + result;
+    }
 
 };
