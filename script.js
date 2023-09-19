@@ -9,6 +9,10 @@ function squareRoot(){
         }
         result = Math.sqrt(num)
         document.getElementById("output").innerHTML = "The square root of " + num + " is  " + result;
+    }catch(error){
+        
+        document.getElementById("output").innerHTML = ("An error occured: " + error.message);
+        
     }
 
 };
